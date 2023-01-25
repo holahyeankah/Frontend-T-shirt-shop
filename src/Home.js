@@ -18,9 +18,7 @@ class Home extends Component{
     }
 
 
-    // handleClick=(product)=>{
-    //   this.props.addToCart(product)
-    //   } 
+    
   
    
   componentDidMount(){
@@ -60,7 +58,7 @@ class Home extends Component{
   
     render() {
       const {product}= this.state;
-      console.log(this.props)
+     
       
       let productRender;
       if (product && product.length) {
